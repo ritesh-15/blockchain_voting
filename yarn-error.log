@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Avinash\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D nodemon
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\src\flutter\bin;C:\Program Files\MongoDB\mongosh-1.6.0-win32-x64\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Android\Android Studio\jbr\bin;C:\Users\Avinash\.cargo\bin;C:\Users\Avinash\AppData\Local\pnpm;C:\Users\Avinash\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Avinash\AppData\Local\Programs\Python\Python310\;C:\Users\Avinash\AppData\Local\Microsoft\WindowsApps;C:\Users\Avinash\AppData\Roaming\npm;C:\Users\Avinash\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Avinash\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Android\Android Studio\jbr\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Avinash\AppData\Local\Yarn\Cache\v6\npm-camelcase-3.0.0-32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a-integrity\node_modules\camelcase\index.js' -> 'D:\Development\blockchain\blockchain_voting\node_modules\solc\node_modules\camelcase\index.js'
+
+npm manifest: 
+  {
+    "name": "techdot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "cookie-parser": "^1.4.5",
+      "ethereumjs-testrpc": "^6.0.3",
+      "express": "^4.16.3",
+      "morgan": "^1.10.0",
+      "password-hash": "^1.2.2",
+      "request": "^2.88.2",
+      "solc": "^0.4.11",
+      "web3": "^0.19.1"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sanattaori/techdot.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sanattaori/techdot/issues"
+    },
+    "homepage": "https://github.com/sanattaori/techdot#readme",
+    "devDependencies": {
+      "ganache-cli": "^6.12.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
